@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(114,200,300), rgba(224,217,218,0.932));
+}
+/* .container {
+    
+} */
+.title {
+    font-size: 30px;
+}
+.information {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 150;
+}
+img {
+    height: 300px;
+    border-radius: 50%;
+}

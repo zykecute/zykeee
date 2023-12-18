@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    /* text-align: center; */
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(114,200,300), rgba(224,217,218,0.932));
+}
+img{
+    height: 300px;
+}
+.title{
+    text-align: center;
+	margin-top: 20px;
+	font-family: 'Rubik', sans-serif;
+    color: var(--main-color);
+    
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: underline red;
+}
+.item1 {
+	border-style: groove;
+    text-align: center;
+    width: 300px;
+    margin-left: 540px;
+    margin-top: 30px;
+    background-color: var(--main-color);
+
+}
+.item1 p{
+	font-size: 20px;
+	font-weight: 300;
+}
+.ph1 {
+	
+	height: 300px;
+	width: 300px;
+}
+
+.shoes1{
+	border-style: groove;
+	margin-left: 20px;
+	width: 306px;
+	background-image: linear-gradient(to bottom right, rgb(0,200,3), rgba(12,321,21,0.932));
+}
+/* .shoes1:hover {
+	transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.shoes3:hover {
+	transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+}
+.shoes4:hover {
+	transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+} */
+
+.shoes1 p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.shoes2 p {
+	font-size: 20px;
+	font-weight: 300;
+}
+/* .shoes2:hover {
+	transition: ease-out;
+	transform: scale(1.08);
+	cursor: pointer;
+} */
+.shoes3 p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.shoes4 p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.ph2 {
+	height: 300px;
+	width: 300px;
+}
+.shoes2 {
+	border-style: groove;
+	width: 306px;
+	margin-left: 40px;
+	background-image: linear-gradient(to bottom right, rgb(0,200,3), rgba(12,321,21,0.932));
+}
+.photo {
+	display: flex;
+	flex-direction: row;
+}
+.ph3{
+	height: 300px;
+	width: 300px;
+}
+.shoes3{
+	border-style: groove;
+	width: 306px;
+	margin-left: 40px;
+	background-image: linear-gradient(to bottom right, rgb(0,200,3), rgba(12,321,21,0.932));
+}
+.ph4{
+	height: 300px;
+	width: 300px;
+}
+.shoes4{
+	border-style: groove;
+	width: 306px;
+	margin-left: 40px;
+	background-image: linear-gradient(to bottom right, rgb(0,200,3), rgba(12,321,21,0.932));
+}
+
+
+nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
